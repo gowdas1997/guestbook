@@ -141,6 +141,18 @@
 		</plugins>
 	</build>
 
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-maven-plugin</artifactId>
+      <configuration>
+        <thin>false</thin>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+
 	<repositories>
 		<repository>
 			<id>spring-snapshot</id>
